@@ -1,6 +1,7 @@
 #form {
     height: 650px;
     width: 100%;
+    margin:3em auto;
     background-image: linear-gradient(rgb(137, 161, 207), rgb(207, 156, 164), white);
 }
 
@@ -10,6 +11,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 4em auto;
+    
 
 }
 
@@ -19,8 +21,8 @@ label{
 
 }
 input {
-    width: 450px;
-    height: 55px;
+    width: 400px;
+    height: 45px;
     margin: 3em 0.5em;
     background-color: rgb(209, 209, 187);
     border-radius: 10px;
