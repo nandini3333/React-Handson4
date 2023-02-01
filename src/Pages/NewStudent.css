@@ -1,0 +1,44 @@
+#form {
+    height: 650px;
+    width: 100%;
+    background-image: linear-gradient(rgb(137, 161, 207), rgb(207, 156, 164), white);
+}
+
+#form-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 4em auto;
+
+}
+
+label{
+   font-size: 1.3em;
+    font-weight: 500;
+
+}
+input {
+    width: 450px;
+    height: 55px;
+    margin: 3em 0.5em;
+    background-color: rgb(209, 209, 187);
+    border-radius: 10px;
+    
+}
+
+button {
+    width: 230px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top:2em;
+    margin-right: 5px;
+    background-color: rgb(225, 225, 191);
+    float: right;
+    font-size: larger;
+   
+}
+
+button:hover {
+    background-color: rgb(130, 123, 123);
+}

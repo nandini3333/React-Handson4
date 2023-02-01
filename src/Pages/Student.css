@@ -1,0 +1,46 @@
+body{
+    height:650px;
+    background-image: linear-gradient(rgb(137, 161, 207),rgb(207, 156, 164),beige);
+}
+
+#title{
+    display:flex;
+    justify-content:space-around;
+    padding:1em 1em 0 0.5em;
+    height:130px;
+    width:100%;
+   
+}
+
+.student{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.button{
+    width:200px;
+    height:fit-content;
+    background-color: rgb(213, 235, 235);
+    padding:5px;
+    font-size: 1.3rem;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    border:2px solid black;
+}
+
+table,th,td{
+    margin:1em auto;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: aliceblue;
+    
+}
+
+th,td{
+    font-size: medium;
+}
+tr{
+    border-bottom: 1px solid rgb(196, 193, 193);
+}
+

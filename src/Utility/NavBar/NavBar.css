@@ -1,0 +1,16 @@
+#home{
+    width:100%;
+    height:fit-content;
+    background-color: #5D3891;
+    font-size:1.4rem;
+    padding:6px;
+    color:white;
+    display : flex;
+    justify-content: space-around;
+    font-style: italic;
+  
+  }
+  .link{
+    text-decoration: none;
+    color:white;
+  }
